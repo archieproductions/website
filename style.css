@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 9999;
+    background-color: #747264;
+}
+
+nav {
+    height: 5rem;
+    width: 100%;
+    /* background-color: aqua; */
+}
+
+nav ul {
+    list-style: none;
+    float: right;
+    margin-right: 1.25rem;
+}
+
+nav ul li {
+    display: inline-block;
+    line-height: 5rem;
+    margin: 0 0.313rem;
+}
+
+nav ul li a {
+    text-decoration: none;
+    margin: 0.313rem 0.313rem;
+    color: #EEEDEB;
+    font-size: 1.063rem;
+    text-transform: uppercase;
+    font-family: 'Dispence', sans-serif;
+    /* font-weight: bold; */
+}
