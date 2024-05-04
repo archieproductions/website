@@ -1,3 +1,10 @@
+/*  
+    Note:
+
+    Check for the borders
+    Remove it before deploying
+*/
+
 * {
     margin: 0;
     padding: 0;
@@ -13,26 +20,31 @@
 
 }
 
+body {
+    background-repeat: no-repeat no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+
 section {
     display: flex;
     justify-content: center;
     align-items: center;
     width: 100%;
     min-height: 100vh;
+    border: solid red;
 }
 
 header {
-    position: sticky;
     top: 0;
     width: 100%;
-    z-index: 9999;
-    background-color: #747264;
 }
 
 nav {
-    height: 5rem;
+    height: 5.6rem;
     width: 100%;
-    /* background-color: aqua; */
+    border: solid red;
 }
 
 nav ul {
@@ -50,11 +62,12 @@ nav ul li {
 nav ul li a {
     text-decoration: none;
     margin: 0.313rem 0.313rem;
-    color: #EEEDEB;
+    color: black;
     font-size: 1.063rem;
     text-transform: uppercase;
-    font-family: 'Dispence', sans-serif;
-    /* font-weight: bold; */
+    font-family: 'Blinker', sans-serif;
+    font-weight: bold;
+    font-size: 1.5rem;
 }
 
 .text-container {
