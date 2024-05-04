@@ -10,7 +10,6 @@
     padding: 0;
     box-sizing: border-box;
     scroll-behavior: smooth;
-    background-color: var(--main-bg-color);
 }
 
 :root{
@@ -20,31 +19,17 @@
 
 }
 
-body {
-    background-repeat: no-repeat no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-    background-position: center;
-}
-
 section {
     display: flex;
     justify-content: center;
     align-items: center;
     width: 100%;
     min-height: 100vh;
-    border: solid red;
-}
-
-header {
-    top: 0;
-    width: 100%;
 }
 
 nav {
     height: 5.6rem;
     width: 100%;
-    border: solid red;
 }
 
 nav ul {
@@ -67,7 +52,7 @@ nav ul li a {
     text-transform: uppercase;
     font-family: 'Blinker', sans-serif;
     font-weight: bold;
-    font-size: 1.5rem;
+    font-size: 1.8rem;
 }
 
 .text-container {
